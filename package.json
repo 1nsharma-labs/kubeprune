@@ -1,0 +1,37 @@
+{
+  "name": "@1nsharma-labs/kubeprune",
+  "version": "1.0.0",
+  "description": "The Open-Source Kubernetes Over-Provisioning & Pod Waste Killer",
+  "main": "core/src/cli.js",
+  "bin": {
+    "kubeprune": "core/src/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node core/src/cli.js scan",
+    "scan": "node core/src/cli.js scan",
+    "report": "node core/src/cli.js report",
+    "test": "node test/test_kubeprune.js"
+  },
+  "keywords": [
+    "kubernetes",
+    "k8s",
+    "finops",
+    "cloud-cost",
+    "over-provisioning",
+    "resource-optimizer",
+    "devops",
+    "aws-eks",
+    "gcp-gke",
+    "open-source"
+  ],
+  "author": "1nsharma-labs",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1nsharma-labs/kubeprune.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

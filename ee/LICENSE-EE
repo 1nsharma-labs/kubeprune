@@ -1,0 +1,15 @@
+Business Source License 1.1 (BSL 1.1)
+
+Parameters:
+Licensor: 1nsharma-labs
+Change Date: Four years after release
+Change License: Apache License, Version 2.0
+Licensed Work: 1nsharma-labs KubePrune Enterprise Edition (/ee)
+
+Use Grant:
+You may use the Licensed Work for non-production development, testing, and evaluation.
+Production use is permitted without a commercial license only for single clusters with under 100 pods.
+
+Commercial deployments exceeding these limits require an Enterprise Commercial License key issued by 1nsharma-labs.
+
+Contact: enterprise@1nsharma-labs.com
